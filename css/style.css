@@ -66,7 +66,11 @@ main {
   flex: 1 0 auto;
 }
 
-.pubs_ul li {
+ul.pubs_ul {
+  list-style-type: initial;
+}
+
+ul.pubs_ul li {
   list-style-type:square;
   padding-bottom: 8px;
 }
@@ -76,7 +80,7 @@ main {
 }
 
 .pubs_title {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .text-justify {
