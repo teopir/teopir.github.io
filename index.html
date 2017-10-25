@@ -256,8 +256,9 @@
 							<a href="teaching/MVA_RL_17/TP1_python36.zip">Python 3.6</a>,
 							<a href="teaching/MVA_RL_17/TP1_matlab.zip">Matlab</a>
 							<p>
-								<span class="red-text text-darken-4">[Updated 2017-10-24 15:30]</span> added new python 2.7 version of the code and fixed typos in the pdf. Note that the graphic rendering in python requires <i>tkinter</i> (check the README.txt).</br>
-								Question Q4: the fact that the policy is deterministic does not imply that the Q-function is zero for actions not selected. If you obtain a Q-function that is different from the provided one is just because you have never tested actions not selected by the policy (check that \(N(x,b) =0\) for any \(b \neq pi(x)\)). In this exercise, it is fine because we are just interested in the V-function. You can try to select \(a_0\) uniformly in the set of available actions in \(A(x)\) in order to obtain a "complete" Q-function.
+								<span class="red-text text-darken-4">[Updated 2017-10-24 15:30]</span> added new python 2.7 version of the code and fixed typos in the pdf. Note that the graphic rendering in python requires <i>tkinter</i> (check the README.txt).</br></br>
+								Question Q4: the fact that the policy is deterministic does not imply that the Q-function is zero for actions not selected. If you obtain a Q-function that is different from the provided one is just because you have never tested actions not selected by the policy (check that \(N(x,b) =0\) for any \(b \neq pi(x)\)). You can try to select \(a_0\) uniformly in the set of available actions in \(A(x)\) in order to obtain a "complete" Q-function.</br>
+								Note that I am also asking to implement a simplified first-visit MC that exploits only the first pair \((x,a)\) of each trajectoy. If you are interested, a complete overview of MC estimators in RL can be found <a href="http://chercheurs.lille.inria.fr/~ghavamza/RL-EC-Lille/Lecture5-b.pdf">here</a>. 
 							</p>
 					</li>
 				</ul>
