@@ -87,3 +87,8 @@ ul.pubs_ul li {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.news_date {
+  color: #424242;
+  # display: block;
+}
